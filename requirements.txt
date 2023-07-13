@@ -1,0 +1,4 @@
+requests
+pylint
+pytest
+mindspore == 2.0.0
