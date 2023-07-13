@@ -1,7 +1,7 @@
 import mindspore as ms
 from mindspore import nn
 from mindspore.common.initializer import initializer, HeNormal, Normal
-
+ 
 
 class DoubleAttention(nn.Cell):
     def __init__(self, in_channels, c_m, c_n, reconstruct=True):
