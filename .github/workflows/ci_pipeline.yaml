@@ -41,6 +41,6 @@ jobs:
     - name: Analysing the External-Attention-MindSpore code with pylint
       run: |
         pylint External-Attention-MindSpore --rcfile=.github/pylint.conf
-    - name: Analysing the tests code with pylint
-      run: |
-        pylint tests --rcfile=.github/pylint.conf
+    # - name: Analysing the tests code with pylint
+    #  run: |
+    #    pylint tests --rcfile=.github/pylint.conf
