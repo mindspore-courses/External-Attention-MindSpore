@@ -38,7 +38,7 @@ jobs:
     #  run: |
     #    python .github/install_mindspore.py
     #    pip install -r download.txt
-    - name: Analysing the External-Attention-MindSpore code with pylint
+    - name: Analysing the model code with pylint
       run: |
         pylint model --rcfile=.github/pylint.conf
     # - name: Analysing the tests code with pylint
