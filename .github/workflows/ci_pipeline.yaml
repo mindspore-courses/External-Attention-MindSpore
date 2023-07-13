@@ -7,12 +7,12 @@ on:
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'External-Attention-MindSpore/**'
+      - 'model/**'
       - '.github/workflows/**'
   push:
     branches: [ "main" ]
     paths:
-      - 'External-Attention-MindSpore/**'
+      - 'model/**'
 
 permissions:
   contents: read
@@ -40,7 +40,7 @@ jobs:
     #    pip install -r download.txt
     - name: Analysing the External-Attention-MindSpore code with pylint
       run: |
-        pylint External-Attention-MindSpore --rcfile=.github/pylint.conf
+        pylint model --rcfile=.github/pylint.conf
     # - name: Analysing the tests code with pylint
     #  run: |
     #    pylint tests --rcfile=.github/pylint.conf
