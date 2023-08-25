@@ -1,3 +1,4 @@
+# pylint: disable=C2801
 """
 MindSpore implementation of 'repmlp'
 Refer to "RepMLPNet: Hierarchical Vision MLP with Re-parameterized Locality"
