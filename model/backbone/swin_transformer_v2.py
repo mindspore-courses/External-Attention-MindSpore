@@ -511,7 +511,7 @@ class SwinTransformerV2(nn.Cell):
         self.pos_drop = nn.Dropout(p=drop_rate)
 
         # stochastic depth
-        dpr = [x for x in ms.ops.linspace(0, drop_path_rate, sum(depths))]  # stochastic depth decay rule
+        dpr = list(ms.ops.linspace(0, drop_path_rate, sum(depths)))  # stochastic depth decay rule
 
         # build layers
         self.layers = nn.SequentialCell()
