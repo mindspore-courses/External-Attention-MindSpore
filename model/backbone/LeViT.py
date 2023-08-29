@@ -2,7 +2,7 @@
 # pylint: disable=W0201
 """
 MindSpore implementation of `LeViT`.
-Refer to LeViT: LeViT Improving Vision Transformerswith Soft Convolutional Inductive Biases
+Refer to "LeViT: a Vision Transformer in ConvNet’s Clothing for Faster Inference"
 """
 import itertools
 
