@@ -2,7 +2,7 @@
 # pylint: disable=W0201
 """
 MindSpore implementation of `CeiT`.
-Refer to Convolution-enhanced image Transformer
+Refer to "Incorporating Convolution Designs into Visual Transformers"
 """
 import math
 import mindspore as ms
