@@ -2,7 +2,7 @@
 # pylint: disable=W0201
 """
 MindSpore implementation of `DeiT`.
-Refer to Data-efficient Image Transformer
+Refer to "Training data-efficient image transformers & distillation through attention"
 """
 from enum import Enum
 from functools import partial
