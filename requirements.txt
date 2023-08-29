@@ -1,4 +1,5 @@
-requests
+requests~=2.31.0
 pylint
 pytest
 mindspore == 2.0.0
+numpy~=1.21.6
